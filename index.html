@@ -9,8 +9,21 @@
 </head>
 
 <body>
+
+    <div class="titulos">
     <h1 class="">Totito (Tres en Raya)</h1>
-    <h2 id="turno" >turno del jugador X</h2>
+
+    <div>
+        <h2 id="xv" class="vic">victorios X : 0</h2> 
+        <h2 id="ov" class="vic">victorios O : 0</h2> 
+        <h2 id="ev" class="vic">Empates : 0</h2>
+
+        <button id="vic" >Reiniciar contadores</button>
+    </div>
+   
+    </div>
+    <div class="totito">
+ <h2 id="turno" >turno del jugador X</h2>
     <div class="tablero">
         <button class="boton">0</button>
         <button class="boton">1</button>
@@ -23,8 +36,9 @@
         <button class="boton">8</button>
 
     </div>
-    <button id="reiniciar" onclick="location.reload()" class=" btnn2">Reiniciar el juego</button>
 
+    <button id="reiniciar" onclick="location.reload()" class=" btnn2">Reiniciar el juego</button>
+</div>
     <script src="./index.js"></script>
 </body>
 
