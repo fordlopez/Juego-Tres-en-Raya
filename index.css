@@ -1,35 +1,36 @@
 body {
     background-color: rgb(3, 11, 34);
+
     display: flex;
     justify-content: center;
     align-items: center;
+
     height: 100vh;
 }
 
 .tablero {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-
+    gap: 1rem;
 }
 
 .boton {
-    height: 10rem;
     width: 10rem;
-    color: rgb(255, 255, 255);
-    background-color: rgb(255, 255, 255);
+    height: 10rem;
+
+    background: white;
+    border: none;
 }
 
 .jugador {
-    padding: 0;
-    font-size: 15rem;
+    font-size: 12rem;
     color: aqua;
-
 
     display: flex;
     justify-content: center;
     align-items: center;
 
+    line-height: 1;
     padding: 0;
-    line-height: normal;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+
 }
